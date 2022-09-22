@@ -1,5 +1,5 @@
 //
-//  SearchDemoApp.swift
+//  FlickrSearchDemoApp.swift
 //  Shared
 //
 //  Created by Kevin McKenney on 9/22/22.
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct SearchDemoApp: App {
+struct FlickrSearchDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
